@@ -12,7 +12,6 @@ The further improments can be using Normalization while saving to Database which
 # Data Structures Used 
 
 
-
 # Does this support multithreading
 Yes! My application supports Multithreading because of the use of LettuceConnection factory which is designed specially for multi threading purposes this is one of the reason behind using Java as language 
 
