@@ -16,7 +16,7 @@ Map-For storing the deatails of Instructor
 Set-while doing insertions in course using Zadd internally
 
 # Does this support multithreading
-Yes! My application supports Multithreading because of the use of LettuceConnection factory which is designed specially for multi threading purposes this is one of the reason behind using Java as language 
+Yes! My application supports Multithreading because of the use of LettuceConnection factory provide setEnableTransactionSupport which is designed specially for multi threading purposes this is one of the reason behind using Java as language 
 
 # Postman Collection
 https://www.getpostman.com/collections/cf29ea68165aecf4a2ce
