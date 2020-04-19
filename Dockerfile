@@ -5,7 +5,7 @@ RUN apt update && apt install -y openjdk-8-jdk-headless maven git --no-install-r
 COPY . /
 RUN cp /ForDocker/settings.xml ~/.m2/
 RUN mvn dependency:go-offline
-RUN  mvn clean package
+RUN  mvn clean package -DskipTests
 
 FROM alpine:latest
 RUN apk update && apk fetch openjdk8  && apk add openjdk8

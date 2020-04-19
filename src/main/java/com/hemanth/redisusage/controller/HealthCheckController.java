@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 public class HealthCheckController {
-    @Value("${spring.redis.host=redis}")
+    @Value("${spring.redis.host}")
     private  String str;
     @RequestMapping(value="/health")
     public ResponseEntity<String> healthCheck(){
