@@ -12,7 +12,7 @@ If u know how to use docker u can use docker compose to set the entire thing els
 Step-1 install docker and start docker daemon
 Step-2 go to redis-usage folder
 Step-3 execute docker-compose build
-Step-4 execute docker-conpose up
+Step-4 execute docker-compose up
 # What Language I used?
 I used java for the Whole thing because of the avialability of build tools like maven and also rich implementation of redis clients like Jedis,Lettuce,Reddison
 
