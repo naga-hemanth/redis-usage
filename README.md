@@ -7,7 +7,7 @@ Instead of Directly using the Operations I made a mini project using those Opera
 # Technology and Frameworks use 
 Maven,Spring boot,Docker 
 
-#Installation
+# Installation
 If u know how to use docker u can use docker compose to set the entire thing else u can use Normal ide
 Step-1 install docker and start docker daemon
 Step-2 go to redis-usage folder
